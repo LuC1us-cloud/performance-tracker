@@ -18,7 +18,11 @@
     "performance-tracker",
     "performance tracker",
     "performance-tracker.js",
-    "performance tracker.js"
+    "performance tracker.js",
+    "performance-tracker-light",
+    "performance tracker light",
+    "performance-tracker-light.js",
+    "performance tracker light.js"
   ],
   "author": "Lukas Cikanavičius",
   "license": "MIT",
