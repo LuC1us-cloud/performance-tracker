@@ -1,11 +1,16 @@
 {
-  "name": "performance-tracker",
-  "version": "1.0.0",
+  "name": "performance-tracker-light",
+  "version": "1.0.2",
   "description": "A class that provides an easy way to track the performance of your code, then see it in string or object format.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "performance",
@@ -18,6 +23,7 @@
   "author": "Lukas Cikanavičius",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.13.0",
     "typescript": "^4.9.5"
   }
 }
