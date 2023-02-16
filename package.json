@@ -23,6 +23,7 @@
   "author": "Lukas Cikanavičius",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.13.0",
     "typescript": "^4.9.5"
   }
 }
