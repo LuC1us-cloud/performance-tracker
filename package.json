@@ -1,0 +1,23 @@
+{
+  "name": "performance-tracker",
+  "version": "1.0.0",
+  "description": "A class that provides an easy way to track the performance of your code, then see it in string or object format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "performance",
+    "tracker",
+    "performance-tracker",
+    "performance tracker",
+    "performance-tracker.js",
+    "performance tracker.js"
+  ],
+  "author": "Lukas Cikanavičius",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
