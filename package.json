@@ -1,11 +1,16 @@
 {
-  "name": "performance-tracker",
+  "name": "performance-tracker-light",
   "version": "1.0.0",
   "description": "A class that provides an easy way to track the performance of your code, then see it in string or object format.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "version": "git add -A && git commit -m \"v$npm_package_version\"",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "performance",
