@@ -1,4 +1,4 @@
-# performance-tracker
+# performance-tracker-light
 A class that provides an easy way to track the performance of your code, then see it in string or object format.
 
 Usage is very simple - define your actions you want to track as an array of strings and provide a namespace for the tracker for easier recognision what is being tracked.
